@@ -1,0 +1,392 @@
+.widget {
+   margin-bottom: 20px;
+}
+.widget-title {
+   width: 100%;
+   display: inline-block;
+   padding-bottom: 20px;
+   margin: 10px 0px 25px 0px;
+   border-bottom: 1px solid #e2e3e7;
+}
+.widget-title h2 {
+   font-size: 15px;
+   margin: 0;
+   padding: 0;
+   font-size: 20px;
+   font-weight: bold;
+   line-height: 1.2;
+}
+.feature-post-list li {
+   min-height: 120px;
+   margin-bottom: 30px;
+}
+.feature-image-link img {
+   width: 120px;
+   height: 120px;
+}
+
+.item-details {
+   padding-right: 10px !important;
+}
+
+.meta-category-small {
+   margin-bottom: 10px;
+}
+
+.meta-category-small a {
+   color: #fff;
+   font-weight: 400 !important;
+   letter-spacing: 0.03em;
+   height: auto;
+   line-height: 10px;
+   font-size: 12px;
+   padding: 4px 8px;
+   border-radius: 5px;
+}
+
+.post-meta {
+   color: #555;
+   font-size: 11px !important;
+   text-transform: uppercase;
+   line-height: 1.2;
+}
+
+.feature-image {
+   width: 120px;
+}
+
+.post-category-color-text-1 {
+   background: #d800f9;
+}
+
+.post-category-color-text-2 {
+   background: #ed1c1c;
+}
+.post-category-color-text-3 {
+   background: #8bc34a;
+}
+.sidebar {
+   position: sticky;
+   top: 80px;
+   bottom: 50px;
+}
+/*footer*/
+.copyright {
+   text-align: center;
+   width: 100%;
+   padding: 1rem 0 0;
+   color: #fefefe;
+   font-size: 13px;
+}
+footer .widget-title {
+   border-bottom: 0;
+   margin: 0;
+}
+
+.custom-list {
+   display: block;
+}
+
+li.custom-list {
+   line-height: 2.5rem;
+   border-bottom: 1px solid #2d2d2d;
+}
+.custom-list span {
+   float: right;
+   padding: 0 5px;
+   background: #323439;
+   color: #fff;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   min-width: 24px;
+   height: 24px;
+   line-height: 24px;
+   text-align: center;
+   font-size: 12px;
+   margin-top: 8px;
+}
+
+/*footer*/
+/* image posts begin*/
+.image-showcase-post {
+   overflow: hidden;
+   height: 500px;
+}
+.image-showcase-post .thumb {
+   position: relative; /*hover olduğunda sorun olmaması için*/
+   width: 100%;
+   height: 500px;
+   background-size: cover;
+   background-position: center;
+}
+.image-showcase-post:hover .details {
+   bottom: 0;
+}
+.image-showcase-post .details {
+   width: 100%;
+   position: absolute;
+   bottom: -45px;
+   padding: 20px;
+   background: linear-gradient(180deg, transparent, black);
+   transition: all.4s;
+}
+.image-showcase-post .meta-info {
+   margin-top: 20px;
+}
+.image-showcase-post .details * {
+   color: #fff;
+   font-family: "ROBOTO";
+}
+/* image posts end*/
+
+/*social icons*/
+.social-count-plus {
+   display: table;
+}
+.social-count-plus ul li {
+   width: 25% !important;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   padding: 38px 0px 10px 0px;
+   position: relative;
+   list-style: none !important;
+   float: left;
+   clear: none !important;
+   text-align: center;
+   margin: 0;
+   border: 1px solid #fff !important;
+}
+.social-count-plus ul li a:before {
+   font-family: FontAwesome;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   margin-top: 10px;
+   font-size: 22px;
+   text-align: center;
+}
+.social-count-plus .items {
+   font-size: 12px;
+}
+.social-count-plus .items .count {
+   font-weight: bold;
+   margin-right: 5px;
+}
+.social-count-plus ul .count-tumblr {
+   background: #f8f9fa !important;
+}
+.social-count-plus ul .count-tumblr a {
+   color: #34465d !important;
+}
+.social-count-plus ul .count-tumblr a:before {
+   content: "\f173";
+}
+
+.social-count-plus ul .count-twitch {
+   background: #f8f9fa !important;
+}
+.social-count-plus ul .count-twitch a {
+   color: #6341a4 !important;
+}
+.social-count-plus ul .count-twitch a:before {
+   content: "\f1e8";
+}
+
+.social-count-plus ul .count-linkedin {
+   background: #f8f9fa !important;
+}
+.social-count-plus ul .count-linkedin a {
+   color: #0077b5 !important;
+}
+.social-count-plus ul .count-linkedin a:before {
+   content: "\f0e1";
+}
+
+.social-count-plus ul .count-vimeo {
+   background: #f8f9fa !important;
+}
+.social-count-plus ul .count-vimeo a {
+   color: #1ab7ea !important;
+}
+.social-count-plus ul .count-vimeo a:before {
+   content: "\f27d";
+}
+
+.social-count-plus ul .count-comments {
+   background: #f8f9fa !important;
+}
+.social-count-plus ul .count-comments a {
+   color: #125688 !important;
+}
+.social-count-plus ul .count-comments a:before {
+   content: "\f075";
+}
+
+.social-count-plus ul .count-posts {
+   background: #f8f9fa !important;
+}
+.social-count-plus ul .count-posts a {
+   color: #00bf8f !important;
+}
+.social-count-plus ul .count-posts a:before {
+   content: "\f040";
+}
+
+.social-count-plus ul .count-users {
+   background: #f8f9fa !important;
+}
+.social-count-plus ul .count-users a {
+   color: #32506d !important;
+}
+.social-count-plus ul .count-users a:before {
+   content: "\f007";
+}
+
+.social-count-plus ul .count-pinterest {
+   background: #f8f9fa !important;
+}
+.social-count-plus ul .count-pinterest a {
+   color: #ff4200 !important;
+}
+.social-count-plus ul .count-pinterest a:before {
+   content: "\f0d2";
+}
+
+.social-count-plus ul .count-github {
+   background: #f8f9fa !important;
+}
+.social-count-plus ul .count-github a {
+   color: #000000 !important;
+}
+.social-count-plus ul .count-github a:before {
+   content: "\f09b";
+}
+
+.social-count-plus ul .count-soundcloud {
+   background: #f8f9fa !important;
+}
+.social-count-plus ul .count-soundcloud a {
+   color: #f80 !important;
+}
+.social-count-plus ul .count-soundcloud a:before {
+   content: "\f1be";
+}
+
+.social-count-plus ul .count-twitter {
+   background: #f8f9fa !important;
+}
+.social-count-plus ul .count-twitter a {
+   color: #5eb2ef !important;
+}
+.social-count-plus ul .count-twitter a:before {
+   content: "\f099";
+}
+
+.social-count-plus ul .count-facebook {
+   background: #f8f9fa !important;
+}
+.social-count-plus ul .count-facebook a {
+   color: #45629f !important;
+}
+.social-count-plus ul .count-facebook a:before {
+   content: "\f09a";
+}
+
+.social-count-plus ul .count-youtube {
+   background: #f8f9fa !important;
+}
+.social-count-plus ul .count-youtube a {
+   color: #c61d23 !important;
+}
+.social-count-plus ul .count-youtube a:before {
+   content: "\f167";
+}
+
+.social-count-plus ul .count-googleplus {
+   background: #f8f9fa !important;
+}
+.social-count-plus ul .count-googleplus a {
+   color: #df5443 !important;
+}
+.social-count-plus ul .count-googleplus a:before {
+   content: "\f0d5";
+}
+
+.social-count-plus ul .count-instagram {
+   background: #f8f9fa !important;
+}
+.social-count-plus ul .count-instagram a {
+   color: #125d8f !important;
+}
+.social-count-plus ul .count-instagram a:before {
+   content: "\f179";
+}
+
+.social-count-plus ul .count-steam {
+   background: #f8f9fa !important;
+}
+.social-count-plus ul .count-steam a {
+   color: #333 !important;
+}
+.social-count-plus ul .count-steam a:before {
+   content: "\f1b6";
+}
+/*social icons*/
+
+/*main content begin*/
+.posts-title {
+   margin: 0 15px 20px;
+   line-height: 1;
+}
+.posts-title h2 {
+   font-size: 20px;
+   color: #000;
+   font-weight: bold;
+}
+.posts-title .description {
+   color: #777;
+}
+.main-contents.row {
+   margin: 0px 15px 0 0 !important;
+}
+.post h3 {
+   font-size: 18px;
+   font-weight: bold;
+}
+.image-post {
+   position: relative;
+   height: 192px;
+   overflow: hidden;
+}
+.image-post .meta-category-small {
+   position: absolute;
+   top: 10px;
+   left: 10px;
+}
+.image-post-thumb {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.meta-info {
+   font-size: 12px;
+   vertical-align: middle;
+   color: #333;
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+}
+.meta-info .author-img {
+   border-radius: 50%;
+   margin-right: 10px;
+   width: 22px;
+   height: 22px;
+}
+.post .content {
+   font-size: 13px;
+   line-height: 1.6;
+   color: #777;
+}
+/*main content end*/

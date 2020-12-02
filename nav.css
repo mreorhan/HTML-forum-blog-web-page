@@ -1,0 +1,70 @@
+/* menu begin */
+.navbar-nav .nav-link {
+   font-weight: bold;
+}
+.navbar-brand {
+   padding-top: 0.2125rem;
+}
+.dropdown:hover .dropdown-menu {
+   display: block;
+}
+.menu-list {
+   line-height: 2rem;
+}
+
+a.nav-link {
+   font-size: 14px;
+   font-family: Roboto !important;
+   font-weight: 600 !important;
+   text-transform: uppercase !important;
+   letter-spacing: 0.05em !important;
+}
+
+.nav-list {
+   position: relative !important;
+}
+
+.dropdown {
+   padding: 0.8rem;
+   position: unset;
+}
+.navbar {
+   padding: 0;
+}
+.dropdown-menu {
+   min-width: 200px;
+   margin: 0;
+   border: 0;
+   border-radius: 0;
+   box-shadow: 0 5px 40px rgba(0, 0, 0, 0.15);
+   animation-name: slideAnimation;
+   animation-duration: 0.4s;
+   animation-timing-function: ease-in-out;
+   animation-fill-mode: backwards;
+}
+
+@keyframes slideAnimation {
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
+   }
+}
+/* menu end */
+input.form-control {
+   border-radius: 0;
+   width: 270px !important;
+}
+
+.icon-inside {
+   width: 52px;
+   height: 38px;
+   color: #7a7a7a;
+   position: absolute;
+   right: 0;
+   font-size: 20px;
+   text-align: center;
+   margin: 1px 0;
+   z-index: 999;
+}
